@@ -1,9 +1,8 @@
-GIT
-  remote: https://github.com/sass/sass.git
-  revision: 4989ff72ba3fa39071ec937e866e8f38d146ddc5
-  branch: stable
+PATH
+  remote: ../sass
   specs:
-    sass (3.4.23)
+    sass (3.5.0.pre.rc.1)
+      sass-listen (~> 3.0.7)
 
 PATH
   remote: .
@@ -21,8 +20,15 @@ GEM
     command_line_reporter (3.3.6)
       colored (>= 1.2)
     diffy (3.1.0)
+    ffi (1.9.18)
     minitest (5.10.1)
+    rb-fsevent (0.9.8)
+    rb-inotify (0.9.8)
+      ffi (>= 0.5.0)
     ruby-terminfo (0.1.1)
+    sass-listen (3.0.7)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9.7)
 
 PLATFORMS
   ruby
@@ -33,4 +39,4 @@ DEPENDENCIES
   sass-spec!
 
 BUNDLED WITH
-   1.13.7
+   1.14.4
